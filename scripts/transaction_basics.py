@@ -1,4 +1,4 @@
-# A single transaction record, represented with variables
+# A script that checks transaction amount against threshold
 customer_name = "Chidi Okafor"
 transaction_amount = 15000
 transaction_currency = "USD"
@@ -15,27 +15,27 @@ print(f"{customer_name} sent {transaction_amount} {transaction_currency}\n")
 #Excercise 1
 customer_name_2 = "Bunmi Akapo"
 transaction_amount_2 = 15000
-transaction_currency = "USD"
-threshold = 20000
+transaction_currency_2 = "USD"
+threshold_2 = 20000
 
-if transaction_amount_2 > threshold:
+if transaction_amount_2 > threshold_2:
     print(customer_name_2, "exceeded the reporting threshold")
 else:
     print(customer_name_2, "is within normal limits")
 
-print(f"{customer_name_2} sent {transaction_amount_2} {transaction_currency}\n")
+print(f"{customer_name_2} sent {transaction_amount_2} {transaction_currency_2}\n")
 
 #Excercise 2
 customer_name_3 = "Austin Akapo"
 transaction_amount_3 = 20000
-transaction_currency = "USD"
-threshold = 20000
+transaction_currency_3 = "USD"
+threshold_3 = 20000
 
-if transaction_amount_3 > threshold:
+if transaction_amount_3 > threshold_3:
     print(customer_name_3, "exceeded the reporting threshold")
-elif transaction_amount_3 == threshold:
+elif transaction_amount_3 == threshold_3:
     print(customer_name_3, "exactly at threshold")
 else:
     print(customer_name_3, "is within normal limits")
 
-print(f"{customer_name_3} sent {transaction_amount_3} {transaction_currency}")
+print(f"{customer_name_3} sent {transaction_amount_3} {transaction_currency_3}")
