@@ -19,7 +19,7 @@ print(df)
 
 print()
 
-print(df["country"] == "NG")
+print(df[df["country"] == "NG"])
 # Confirms the "country" that are "NG"
 
 print()
